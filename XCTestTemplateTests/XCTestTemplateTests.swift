@@ -21,11 +21,12 @@ class XCTestTemplateTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testGetItem() {
+        let test = Test()
+        let expected = 9
+        XCTAssertEqual(test.testItem(num: expected), expected, "Checks that testItem returns the given number")
+        
     }
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
