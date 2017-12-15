@@ -1,6 +1,0 @@
-framework module Pods_XCTestTemplateTests {
-  umbrella header "Pods-XCTestTemplateTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
